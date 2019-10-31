@@ -154,6 +154,13 @@ def findSubjectFiles(subjID,manual_n_it=False):
 #data_dir = 'P:\\closed_loop_data\\'+subjID+'\\' #old
 # data_dir = 'P:\\Research2018_2019\\DTU_closed_loop\\closed_loop_data\\'+subjID+'\\'
 #os.chdir(data_dir)
+    
+# finding my own data:
+# data_dir = 'P:\\Research2018_2019\\DTU_closed_loop\\closed_loop_data\\greta_pilot_data\\'
+#    EEGfile = 'subject_97EEG_.csv'
+#    markerFile = 'subject_97marker_.csv'
+#    idxFile = 'createIndices_97_day_2.csv'
+#    alphaFile = 'alpha_subjID_97.csv'
 
 def analyzeOffline(subjID):
     '''

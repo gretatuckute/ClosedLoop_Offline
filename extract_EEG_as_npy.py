@@ -184,6 +184,11 @@ def analyzeOffline(subjID):
     cat = extractCat(idxFile,exp_type='fused')
     
     print('about to save')
+    np.save('EEG_epochs_sample.npy', e)
+    np.save('y_categories_sample.npy', cat)
+    
+    
+    # save my own data
     np.save('EEG_epochs_subjID_'+str(subjID)+'.npy', e)
     np.save('y_categories_subjID_'+str(subjID)+'.npy', cat)
 
