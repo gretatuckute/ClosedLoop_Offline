@@ -1068,6 +1068,7 @@ preCR_C_sort = [y for x,y in sorted(zip(idxLst,preCR_C_a))]
 preFR_C_sort = np.delete(preFR_C_sort,2)
 preCR_C_sort = np.delete(preCR_C_sort,2)
 
+# INTERACTION
 # Find diffs
 NF_diff = preCR_NF_a - preFR_NF_a
 C_diff = preCR_C_sort - preFR_C_sort
